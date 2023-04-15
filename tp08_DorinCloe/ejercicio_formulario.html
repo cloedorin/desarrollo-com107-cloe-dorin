@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta name="description" content="pagina web">
+    <title>ejercicio 3</title>
+
+    
+    </head>
+<body>
+ <style>
+
+* {
+    background-color: rgb(254, 220, 244);
+}
+
+
+
+ </style>
+<form method="post" action="" name="form1" id="formulario1">
+
+    <h1>Datos del formulario</h1>
+
+    <label for="id_apellido">Apellido</label>
+    <input type="text"  name="Apellido" id="id_apellido" value="">
+
+    <label for="id_nombres">Nombres</label>
+    <input type="text"  name="Nombres" id="id_nombres" value="">
+
+    <br>
+    <br>
+
+
+<input type="radio" name="rango_edad" value="menor_18">
+<label>Menor de 18</label>
+<input type="radio" name="rango_edad" value="mayor_18">
+<label>Mayor de 18</label>
+
+<br>
+<br>
+
+
+<label for="sexo">Sexo:</label>
+<select name="sexo" id="sexo">
+  <option value="hombre">Hombre</option>
+  <option value="mujer">Mujer</option>
+  <option value="otro">Otro</option>
+</select>
+
+<br>
+<br>
+
+<label for="idioma">Idioma:</label>
+<select name="cmb_idiomas" id="id_cmb_idiomas" multiple>
+    <option value="ingles">Ingles</option>
+    <option value="frances">Frances</option>
+    <option value="aleman">Aleman</option>
+    <option value="holandes">Holandes</option>
+
+</select>
+
+<br>
+<br>
+
+<label for="extra">Extras:</label>
+<input type="checkbox" name="extras[]" value="auto">
+<label>auto</label>
+<input type="checkbox" name="extras[]" value="camioneta">
+<label>camioneta</label>
+<input type="checkbox" name="extras[]" value="camion">
+<label>camion</label>
+
+<br>
+<br>
+
+<label for="comentario">Comentario:</label>
+<textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+
+<br>
+<br>
+
+<button type="submit" value="Enviar">Enviar Datos</button>
+<button type="reset" value="Borrar">Borrar Datos</button>
+
+</form>
+
+</body>
+</html>
